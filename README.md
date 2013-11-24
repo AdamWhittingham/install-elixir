@@ -8,10 +8,10 @@ Just run:
 
 Options
 -------
-If the `INSTALL_ELIXIR_VERSION` variable is set, that version gets installed instead.
+The version installed can be overridden by providing it at the end of the command.
 
-For example, to choose to install 0.10.0:
-`env INSTALL_ELIXIR_VERSION=0.10.0 ./install.sh`
+For example, to choose to install 0.10.0
+`curl -L https://raw.github.com/AdamWhittingham/install-elixir/master/install.sh | bash -s 0.10.0`
 
 ToDo
 ----

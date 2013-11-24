@@ -1,7 +1,10 @@
 #!/bin/bash
 
-elixir_version=${INSTALL_ELIXIR_VERSION:-'0.11.2'}
+install_version=$1
+elixir_version=${install_version:-'0.11.2'}
 elixir_base=/opt/elixir
+
+echo "Installing Elixir ${elixir_version} to ${elixir_base}"
 
 # Lets make our new folder and move in
 sudo mkdir $elixir_base
