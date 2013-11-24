@@ -4,7 +4,7 @@ Elixir Installation
 Elixir is too good to miss out on but installing it on Ubuntu takes more than one command...which is where this script comes in.
 
 Just run:
-`curl -L https://github.com/AdamWhittingham/install-elixir/install.sh | bash -s`
+`curl -L https://raw.github.com/AdamWhittingham/install-elixir/master/install.sh | bash -s`
 
 Options
 -------
